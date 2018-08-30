@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F54045D212870EB006FE95F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F54045C212870EB006FE95F /* TableViewController.swift */; };
+		1F540485212977BA006FE95F /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F540482212977BA006FE95F /* UIImage.swift */; };
+		1F540486212977BA006FE95F /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F540483212977BA006FE95F /* CollectionViewController.swift */; };
+		1F540487212977BA006FE95F /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F540484212977BA006FE95F /* PhotoCell.swift */; };
+		1F54048D212977FD006FE95F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F540489212977FD006FE95F /* ViewController.swift */; };
+		1F54048E212977FD006FE95F /* PhotoCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F54048A212977FD006FE95F /* PhotoCommentViewController.swift */; };
+		1F54048F212977FD006FE95F /* ZoomPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F54048B212977FD006FE95F /* ZoomPhotoViewController.swift */; };
+		1F540490212977FD006FE95F /* MangePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F54048C212977FD006FE95F /* MangePageViewController.swift */; };
+		1F5404972129AD74006FE95F /* contador-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F5404922129AD74006FE95F /* contador-1.jpg */; };
+		1F5404982129AD74006FE95F /* contador-0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F5404932129AD74006FE95F /* contador-0.jpg */; };
+		1F5404992129AD74006FE95F /* contador-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F5404942129AD74006FE95F /* contador-4.jpg */; };
+		1F54049A2129AD74006FE95F /* contador-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F5404952129AD74006FE95F /* contador-2.jpg */; };
+		1F54049B2129AD74006FE95F /* contador-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F5404962129AD74006FE95F /* contador-3.jpg */; };
+		1F5404A22129C76B006FE95F /* contador-9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F54049C2129C76A006FE95F /* contador-9.jpg */; };
+		1F5404A32129C76B006FE95F /* contador-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F54049D2129C76A006FE95F /* contador-6.jpg */; };
+		1F5404A42129C76B006FE95F /* contador-10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F54049E2129C76A006FE95F /* contador-10.jpg */; };
+		1F5404A52129C76B006FE95F /* contador-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F54049F2129C76A006FE95F /* contador-7.jpg */; };
+		1F5404A62129C76B006FE95F /* contador-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F5404A02129C76A006FE95F /* contador-5.jpg */; };
+		1F5404A72129C76B006FE95F /* contador-8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F5404A12129C76B006FE95F /* contador-8.jpg */; };
+		1F5C6604212B7BF600EFA51B /* Spring Flower Deream Water.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F5C6603212B7BF600EFA51B /* Spring Flower Deream Water.mp3 */; };
+		1F5C6606212C4A9600EFA51B /* 04.春花夢露.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F5C6605212C4A9600EFA51B /* 04.春花夢露.mp3 */; };
+		5115A8841FFACA2B0051BB12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5115A8831FFACA2B0051BB12 /* AppDelegate.swift */; };
+		5115A8881FFACA2B0051BB12 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5115A8871FFACA2B0051BB12 /* SecondViewController.swift */; };
+		5115A88B1FFACA2C0051BB12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5115A8891FFACA2C0051BB12 /* Main.storyboard */; };
+		5115A88D1FFACA2C0051BB12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5115A88C1FFACA2C0051BB12 /* Assets.xcassets */; };
+		5115A8901FFACA2C0051BB12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5115A88E1FFACA2C0051BB12 /* LaunchScreen.storyboard */; };
+		5115A89F1FFACACD0051BB12 /* Closer (feat. Halsey).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5115A8991FFACACD0051BB12 /* Closer (feat. Halsey).mp3 */; };
+		5115A8A11FFACACD0051BB12 /* The Way (ft. Mac Miller).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5115A89B1FFACACD0051BB12 /* The Way (ft. Mac Miller).mp3 */; };
+		5115A8A21FFACACD0051BB12 /* All Time Low.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5115A89C1FFACACD0051BB12 /* All Time Low.mp3 */; };
+		5115A8A51FFADBC50051BB12 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 5115A8A41FFADBC40051BB12 /* image.png */; };
+		CF00F97F2129CC2C00263150 /* DemoListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF00F97E2129CC2B00263150 /* DemoListController.swift */; };
+		CF6986E3212312D700EF60AF /* Flight of the Silverbird.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF6986E2212312D700EF60AF /* Flight of the Silverbird.mp3 */; };
+		CF6986E72123135F00EF60AF /* TwoSteps-Star Sky (Instrumental).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF6986E62123135F00EF60AF /* TwoSteps-Star Sky (Instrumental).mp3 */; };
+		CF6986E92123138500EF60AF /* TwoSteps-Victory.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF6986E82123138500EF60AF /* TwoSteps-Victory.mp3 */; };
+		CF6986EC212313AB00EF60AF /* Mike Perry - Inside the Lines ft. Casso.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF6986EA212313AA00EF60AF /* Mike Perry - Inside the Lines ft. Casso.mp3 */; };
+		CF6986ED212313AB00EF60AF /* Mike Perry - The Ocean ft. Shy Martin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF6986EB212313AA00EF60AF /* Mike Perry - The Ocean ft. Shy Martin.mp3 */; };
+		CF6986F42123271D00EF60AF /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6986F32123271D00EF60AF /* Music.swift */; };
+		CF6986F62123272600EF60AF /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6986F52123272600EF60AF /* TableController.swift */; };
+		CF6986F82123273400EF60AF /* VideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6986F72123273400EF60AF /* VideoController.swift */; };
+		CF6986FA2123274300EF60AF /* MusicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6986F92123274300EF60AF /* MusicCell.swift */; };
+		CFFC0A322132F42C0042BAFD /* contador13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFFC0A2E2132F42C0042BAFD /* contador13.jpg */; };
+		CFFC0A332132F42C0042BAFD /* contador14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFFC0A2F2132F42C0042BAFD /* contador14.jpg */; };
+		CFFC0A342132F42C0042BAFD /* contador12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFFC0A302132F42C0042BAFD /* contador12.jpg */; };
+		CFFC0A352132F42C0042BAFD /* contador11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFFC0A312132F42C0042BAFD /* contador11.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F54045C212870EB006FE95F /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		1F540482212977BA006FE95F /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		1F540483212977BA006FE95F /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		1F540484212977BA006FE95F /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		1F540489212977FD006FE95F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F54048A212977FD006FE95F /* PhotoCommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCommentViewController.swift; sourceTree = "<group>"; };
+		1F54048B212977FD006FE95F /* ZoomPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomPhotoViewController.swift; sourceTree = "<group>"; };
+		1F54048C212977FD006FE95F /* MangePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MangePageViewController.swift; sourceTree = "<group>"; };
+		1F5404922129AD74006FE95F /* contador-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "contador-1.jpg"; sourceTree = "<group>"; };
+		1F5404932129AD74006FE95F /* contador-0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "contador-0.jpg"; sourceTree = "<group>"; };
+		1F5404942129AD74006FE95F /* contador-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "contador-4.jpg"; sourceTree = "<group>"; };
+		1F5404952129AD74006FE95F /* contador-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "contador-2.jpg"; sourceTree = "<group>"; };
+		1F5404962129AD74006FE95F /* contador-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "contador-3.jpg"; sourceTree = "<group>"; };
+		1F54049C2129C76A006FE95F /* contador-9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "contador-9.jpg"; sourceTree = "<group>"; };
+		1F54049D2129C76A006FE95F /* contador-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "contador-6.jpg"; sourceTree = "<group>"; };
+		1F54049E2129C76A006FE95F /* contador-10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "contador-10.jpg"; sourceTree = "<group>"; };
+		1F54049F2129C76A006FE95F /* contador-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "contador-7.jpg"; sourceTree = "<group>"; };
+		1F5404A02129C76A006FE95F /* contador-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "contador-5.jpg"; sourceTree = "<group>"; };
+		1F5404A12129C76B006FE95F /* contador-8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "contador-8.jpg"; sourceTree = "<group>"; };
+		1F5C6603212B7BF600EFA51B /* Spring Flower Deream Water.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Spring Flower Deream Water.mp3"; sourceTree = "<group>"; };
+		1F5C6605212C4A9600EFA51B /* 04.春花夢露.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "04.春花夢露.mp3"; sourceTree = "<group>"; };
+		5115A8801FFACA2B0051BB12 /* Legend Audio Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Legend Audio Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5115A8831FFACA2B0051BB12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5115A8871FFACA2B0051BB12 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		5115A88A1FFACA2C0051BB12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5115A88C1FFACA2C0051BB12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5115A88F1FFACA2C0051BB12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5115A8911FFACA2C0051BB12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5115A8991FFACACD0051BB12 /* Closer (feat. Halsey).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Closer (feat. Halsey).mp3"; sourceTree = "<group>"; };
+		5115A89B1FFACACD0051BB12 /* The Way (ft. Mac Miller).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Way (ft. Mac Miller).mp3"; sourceTree = "<group>"; };
+		5115A89C1FFACACD0051BB12 /* All Time Low.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "All Time Low.mp3"; sourceTree = "<group>"; };
+		5115A8A41FFADBC40051BB12 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		CF00F97E2129CC2B00263150 /* DemoListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoListController.swift; sourceTree = SOURCE_ROOT; };
+		CF6986E2212312D700EF60AF /* Flight of the Silverbird.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Flight of the Silverbird.mp3"; sourceTree = "<group>"; };
+		CF6986E62123135F00EF60AF /* TwoSteps-Star Sky (Instrumental).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "TwoSteps-Star Sky (Instrumental).mp3"; sourceTree = "<group>"; };
+		CF6986E82123138500EF60AF /* TwoSteps-Victory.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "TwoSteps-Victory.mp3"; sourceTree = "<group>"; };
+		CF6986EA212313AA00EF60AF /* Mike Perry - Inside the Lines ft. Casso.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mike Perry - Inside the Lines ft. Casso.mp3"; sourceTree = "<group>"; };
+		CF6986EB212313AA00EF60AF /* Mike Perry - The Ocean ft. Shy Martin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mike Perry - The Ocean ft. Shy Martin.mp3"; sourceTree = "<group>"; };
+		CF6986F32123271D00EF60AF /* Music.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		CF6986F52123272600EF60AF /* TableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; };
+		CF6986F72123273400EF60AF /* VideoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoController.swift; sourceTree = "<group>"; };
+		CF6986F92123274300EF60AF /* MusicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicCell.swift; sourceTree = "<group>"; };
+		CFFC0A2E2132F42C0042BAFD /* contador13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = contador13.jpg; sourceTree = "<group>"; };
+		CFFC0A2F2132F42C0042BAFD /* contador14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = contador14.jpg; sourceTree = "<group>"; };
+		CFFC0A302132F42C0042BAFD /* contador12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = contador12.jpg; sourceTree = "<group>"; };
+		CFFC0A312132F42C0042BAFD /* contador11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = contador11.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5115A87D1FFACA2B0051BB12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F54048121297799006FE95F /* collection */ = {
+			isa = PBXGroup;
+			children = (
+				1F540483212977BA006FE95F /* CollectionViewController.swift */,
+				1F540484212977BA006FE95F /* PhotoCell.swift */,
+				1F540482212977BA006FE95F /* UIImage.swift */,
+			);
+			path = collection;
+			sourceTree = "<group>";
+		};
+		1F540488212977D5006FE95F /* PhotoScroll */ = {
+			isa = PBXGroup;
+			children = (
+				1F54048C212977FD006FE95F /* MangePageViewController.swift */,
+				1F54048A212977FD006FE95F /* PhotoCommentViewController.swift */,
+				1F540489212977FD006FE95F /* ViewController.swift */,
+				1F54048B212977FD006FE95F /* ZoomPhotoViewController.swift */,
+				1F54048121297799006FE95F /* collection */,
+			);
+			path = PhotoScroll;
+			sourceTree = "<group>";
+		};
+		1F5404912129A774006FE95F /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				CFFC0A312132F42C0042BAFD /* contador11.jpg */,
+				CFFC0A302132F42C0042BAFD /* contador12.jpg */,
+				CFFC0A2E2132F42C0042BAFD /* contador13.jpg */,
+				CFFC0A2F2132F42C0042BAFD /* contador14.jpg */,
+				1F5404A02129C76A006FE95F /* contador-5.jpg */,
+				1F54049D2129C76A006FE95F /* contador-6.jpg */,
+				1F54049F2129C76A006FE95F /* contador-7.jpg */,
+				1F5404A12129C76B006FE95F /* contador-8.jpg */,
+				1F54049C2129C76A006FE95F /* contador-9.jpg */,
+				1F54049E2129C76A006FE95F /* contador-10.jpg */,
+				1F5404932129AD74006FE95F /* contador-0.jpg */,
+				1F5404922129AD74006FE95F /* contador-1.jpg */,
+				1F5404952129AD74006FE95F /* contador-2.jpg */,
+				1F5404962129AD74006FE95F /* contador-3.jpg */,
+				1F5404942129AD74006FE95F /* contador-4.jpg */,
+			);
+			path = Photo;
+			sourceTree = "<group>";
+		};
+		1F5FC97B2132E06F007DEB37 /* Youtube */ = {
+			isa = PBXGroup;
+			children = (
+				CF6986F52123272600EF60AF /* TableController.swift */,
+				CF6986F32123271D00EF60AF /* Music.swift */,
+				CF6986F92123274300EF60AF /* MusicCell.swift */,
+				CF6986F72123273400EF60AF /* VideoController.swift */,
+			);
+			path = Youtube;
+			sourceTree = "<group>";
+		};
+		5115A8771FFACA2B0051BB12 = {
+			isa = PBXGroup;
+			children = (
+				1F5FC97B2132E06F007DEB37 /* Youtube */,
+				1F5404912129A774006FE95F /* Photo */,
+				1F540488212977D5006FE95F /* PhotoScroll */,
+				5115A8821FFACA2B0051BB12 /* Audio Player */,
+				5115A8811FFACA2B0051BB12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5115A8811FFACA2B0051BB12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5115A8801FFACA2B0051BB12 /* Legend Audio Player.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5115A8821FFACA2B0051BB12 /* Audio Player */ = {
+			isa = PBXGroup;
+			children = (
+				CF00F97E2129CC2B00263150 /* DemoListController.swift */,
+				5115A8831FFACA2B0051BB12 /* AppDelegate.swift */,
+				5115A8871FFACA2B0051BB12 /* SecondViewController.swift */,
+				5115A8891FFACA2C0051BB12 /* Main.storyboard */,
+				1F54045C212870EB006FE95F /* TableViewController.swift */,
+				5115A88C1FFACA2C0051BB12 /* Assets.xcassets */,
+				5115A88E1FFACA2C0051BB12 /* LaunchScreen.storyboard */,
+				5115A8911FFACA2C0051BB12 /* Info.plist */,
+				5115A8A41FFADBC40051BB12 /* image.png */,
+				5115A8971FFACACD0051BB12 /* Songs */,
+			);
+			path = "Audio Player";
+			sourceTree = "<group>";
+		};
+		5115A8971FFACACD0051BB12 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				1F5C6605212C4A9600EFA51B /* 04.春花夢露.mp3 */,
+				1F5C6603212B7BF600EFA51B /* Spring Flower Deream Water.mp3 */,
+				CF6986EA212313AA00EF60AF /* Mike Perry - Inside the Lines ft. Casso.mp3 */,
+				CF6986EB212313AA00EF60AF /* Mike Perry - The Ocean ft. Shy Martin.mp3 */,
+				CF6986E82123138500EF60AF /* TwoSteps-Victory.mp3 */,
+				CF6986E62123135F00EF60AF /* TwoSteps-Star Sky (Instrumental).mp3 */,
+				CF6986E2212312D700EF60AF /* Flight of the Silverbird.mp3 */,
+				5115A89C1FFACACD0051BB12 /* All Time Low.mp3 */,
+				5115A8991FFACACD0051BB12 /* Closer (feat. Halsey).mp3 */,
+				5115A89B1FFACACD0051BB12 /* The Way (ft. Mac Miller).mp3 */,
+			);
+			path = Songs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5115A87F1FFACA2B0051BB12 /* Legend Audio Player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5115A8941FFACA2C0051BB12 /* Build configuration list for PBXNativeTarget "Legend Audio Player" */;
+			buildPhases = (
+				5115A87C1FFACA2B0051BB12 /* Sources */,
+				5115A87D1FFACA2B0051BB12 /* Frameworks */,
+				5115A87E1FFACA2B0051BB12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Legend Audio Player";
+			productName = "Audio Player";
+			productReference = 5115A8801FFACA2B0051BB12 /* Legend Audio Player.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5115A8781FFACA2B0051BB12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Daniel Ro";
+				TargetAttributes = {
+					5115A87F1FFACA2B0051BB12 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5115A87B1FFACA2B0051BB12 /* Build configuration list for PBXProject "Legend Audio Player" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5115A8771FFACA2B0051BB12;
+			productRefGroup = 5115A8811FFACA2B0051BB12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5115A87F1FFACA2B0051BB12 /* Legend Audio Player */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5115A87E1FFACA2B0051BB12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF6986E72123135F00EF60AF /* TwoSteps-Star Sky (Instrumental).mp3 in Resources */,
+				CF6986E3212312D700EF60AF /* Flight of the Silverbird.mp3 in Resources */,
+				CFFC0A332132F42C0042BAFD /* contador14.jpg in Resources */,
+				5115A8A21FFACACD0051BB12 /* All Time Low.mp3 in Resources */,
+				1F5404982129AD74006FE95F /* contador-0.jpg in Resources */,
+				CF6986EC212313AB00EF60AF /* Mike Perry - Inside the Lines ft. Casso.mp3 in Resources */,
+				1F5404A42129C76B006FE95F /* contador-10.jpg in Resources */,
+				CFFC0A322132F42C0042BAFD /* contador13.jpg in Resources */,
+				1F5C6604212B7BF600EFA51B /* Spring Flower Deream Water.mp3 in Resources */,
+				1F5404A22129C76B006FE95F /* contador-9.jpg in Resources */,
+				1F5404972129AD74006FE95F /* contador-1.jpg in Resources */,
+				1F54049B2129AD74006FE95F /* contador-3.jpg in Resources */,
+				5115A8901FFACA2C0051BB12 /* LaunchScreen.storyboard in Resources */,
+				5115A88D1FFACA2C0051BB12 /* Assets.xcassets in Resources */,
+				1F5C6606212C4A9600EFA51B /* 04.春花夢露.mp3 in Resources */,
+				5115A8A11FFACACD0051BB12 /* The Way (ft. Mac Miller).mp3 in Resources */,
+				1F5404992129AD74006FE95F /* contador-4.jpg in Resources */,
+				1F5404A72129C76B006FE95F /* contador-8.jpg in Resources */,
+				1F54049A2129AD74006FE95F /* contador-2.jpg in Resources */,
+				1F5404A32129C76B006FE95F /* contador-6.jpg in Resources */,
+				1F5404A62129C76B006FE95F /* contador-5.jpg in Resources */,
+				CF6986ED212313AB00EF60AF /* Mike Perry - The Ocean ft. Shy Martin.mp3 in Resources */,
+				5115A89F1FFACACD0051BB12 /* Closer (feat. Halsey).mp3 in Resources */,
+				CFFC0A352132F42C0042BAFD /* contador11.jpg in Resources */,
+				1F5404A52129C76B006FE95F /* contador-7.jpg in Resources */,
+				5115A88B1FFACA2C0051BB12 /* Main.storyboard in Resources */,
+				CF6986E92123138500EF60AF /* TwoSteps-Victory.mp3 in Resources */,
+				CFFC0A342132F42C0042BAFD /* contador12.jpg in Resources */,
+				5115A8A51FFADBC50051BB12 /* image.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5115A87C1FFACA2B0051BB12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF00F97F2129CC2C00263150 /* DemoListController.swift in Sources */,
+				5115A8881FFACA2B0051BB12 /* SecondViewController.swift in Sources */,
+				CF6986F82123273400EF60AF /* VideoController.swift in Sources */,
+				1F54048F212977FD006FE95F /* ZoomPhotoViewController.swift in Sources */,
+				CF6986FA2123274300EF60AF /* MusicCell.swift in Sources */,
+				5115A8841FFACA2B0051BB12 /* AppDelegate.swift in Sources */,
+				1F54048E212977FD006FE95F /* PhotoCommentViewController.swift in Sources */,
+				1F540486212977BA006FE95F /* CollectionViewController.swift in Sources */,
+				1F540490212977FD006FE95F /* MangePageViewController.swift in Sources */,
+				1F54048D212977FD006FE95F /* ViewController.swift in Sources */,
+				CF6986F62123272600EF60AF /* TableController.swift in Sources */,
+				1F540485212977BA006FE95F /* UIImage.swift in Sources */,
+				1F54045D212870EB006FE95F /* TableViewController.swift in Sources */,
+				1F540487212977BA006FE95F /* PhotoCell.swift in Sources */,
+				CF6986F42123271D00EF60AF /* Music.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5115A8891FFACA2C0051BB12 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5115A88A1FFACA2C0051BB12 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5115A88E1FFACA2C0051BB12 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5115A88F1FFACA2C0051BB12 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5115A8921FFACA2C0051BB12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5115A8931FFACA2C0051BB12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5115A8951FFACA2C0051BB12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Audio Player/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cm.Legend-Audio-Player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5115A8961FFACA2C0051BB12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Audio Player/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cm.Legend-Audio-Player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5115A87B1FFACA2B0051BB12 /* Build configuration list for PBXProject "Legend Audio Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5115A8921FFACA2C0051BB12 /* Debug */,
+				5115A8931FFACA2C0051BB12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5115A8941FFACA2C0051BB12 /* Build configuration list for PBXNativeTarget "Legend Audio Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5115A8951FFACA2C0051BB12 /* Debug */,
+				5115A8961FFACA2C0051BB12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5115A8781FFACA2B0051BB12 /* Project object */;
+}
